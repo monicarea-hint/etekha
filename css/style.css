@@ -1,0 +1,65 @@
+/* =====================================================
+   Estilos personalizados para E-tekha
+   Basado en Bootstrap 5.0.2
+   Colores del logotipo: verde agua (#00a38d) y magenta (#eb3d87)
+   ===================================================== */
+
+/* === COLORES PERSONALIZADOS === */
+.text-teal {
+  color: #00a38d; /* Verde agua - usado para títulos y enlaces */
+}
+
+.border-teal {
+  border-color: #00a38d !important; /* Borde con color verde agua */
+}
+
+.text-pink {
+  color: #eb3d87; /* Magenta - para destacar secciones complementarias */
+}
+
+.border-pink {
+  border-color: #eb3d87 !important; /* Borde magenta */
+}
+
+/* === FONDOS SUAVES === */
+.bg-light {
+  background-color: #f9f9f9 !important; /* Fondo suave para secciones destacadas */
+}
+
+/* === ESPACIADO Y REDONDEO === */
+.rounded {
+  border-radius: 0.5rem; /* Bordes redondeados para tarjetas */
+}
+
+/* === SOMBRAS SUAVES === */
+.shadow-sm {
+  box-shadow: 0 .125rem .25rem rgba(0, 0, 0, 0.075) !important;
+}
+
+/* === TIPOGRAFÍA === */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* === UTILIDADES PARA TARJETAS DE VALORES === */
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* === LOGO RESPONSIVO === */
+img {
+  max-width: 100%;
+  height: auto;
+}
